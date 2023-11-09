@@ -19,9 +19,9 @@ function mostrarTarefas() {
   minhaListaDeItens.forEach((item, index) => {
     novaLi += `
       <li class="task ${item.concluida ? "done" : ""}">
-        <img src="file:///C:/Users/vinic/Downloads/check-solid.svg" alt="checked-na-tarefa" onclick="concluirTarefa(${index})">
+        <img src=https://fontawesome.com/icons/check?f=classic&s=solid
         <p>${item.tarefa}</p>
-        <img src="file:///C:/Users/vinic/Downloads/trash-can-regular.svg" alt="Tarefa-para-lixo" onclick="deletarItem(${index})">
+        <img src=https://fontawesome.com/icons/trash-can?f=classic&s=solid
       </li>`;
   });
 
